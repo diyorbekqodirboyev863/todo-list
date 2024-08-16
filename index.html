@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="https://github.com/diyorbekqodirboyev863/">
+    <meta name="description" content="To-Do List">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title">To-Do List</h2>
+        <form action="#" method="post" class="form">
+            <input type="text" name="task" id="task" class="inp" value="" placeholder="Type your task ..." required />
+            <button type="button" class="btn btn-add">Add</button>
+        </form>
+        <hr class="line">
+        <div class="tasks">
+            <div class="task">
+                <div class="todo">
+                    <input type="checkbox" name="to" id="to" class="to">
+                    <label for="to">Task 1</label>
+                </div>
+                <div class="task-controls">
+                    <button type="button" class="edit b"><ion-icon name="create-outline"></ion-icon></button>
+                    <button type="button" class="delete b"><ion-icon name="trash-outline"></ion-icon></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

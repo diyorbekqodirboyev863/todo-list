@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #C33764, #1D2671);
+}
+
+.container {
+    width: 700px;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.5);
+}
+
+h2.title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    height: 50px;
+}
+
+.inp {
+    flex: 1;
+}
+
+.inp, .btn {
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+}
+
+.btn {
+    background: #3f51b5;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #2e3e90;
+}
+
+.line {
+    margin: 15px 0;
+    color: #ccc;
+}
+
+.tasks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.task {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.5);
+    padding: 0 10px;
+}
+
+.b {
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.edit {
+    background: #ffeb3b;
+}
+
+.delete {
+    background: #f44336;
+}
